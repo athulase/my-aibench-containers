@@ -1,0 +1,19 @@
+diff --git a/src/align/align_dataset_mtcnn.py b/src/align/align_dataset_mtcnn.py
+index d2a3eea..a8b1caa 100644
+--- a/src/align/align_dataset_mtcnn.py
++++ b/src/align/align_dataset_mtcnn.py
+@@ -50,7 +50,13 @@ def main(args):
+     
+     with tf.Graph().as_default():
+         gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_memory_fraction)
+-        sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options, log_device_placement=False))
++        #sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options, log_device_placement=False))
++        config = tf.ConfigProto(gpu_options=gpu_options, log_device_placement=False, allow_soft_placement=True)
++        config.inter_op_parallelism_threads = 1
++        import multiprocessing
++        config.intra_op_parallelism_threads = multiprocessing.cpu_count()
++        #with sees.as_default() :
++        sess = tf.Session(config=config)
+         with sess.as_default():
+             pnet, rnet, onet = align.detect_face.create_mtcnn(sess, None)
+     

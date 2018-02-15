@@ -1,0 +1,1 @@
+<?php    $INDEX_FILE_NAME = "index.php"; ?>

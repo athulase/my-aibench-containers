@@ -1,0 +1,44 @@
+<?php
+    $appName = "AIBench Reporting Dashboard";
+    $homeLink = "Acasa";
+    $settingsLink = "Setari";
+    $logout = "Iesire";
+    $filters = "Filtrare";
+    $from = "Incepand cu";
+    $to = "pana la";
+    $reset = "Resetare";
+    $apply = "Aplica";
+    $tableView = "Tabel";
+    $chartView = "Grafic";
+    $exportCsv = "Exporta CSV";
+    $details = "Detalii";
+    $columnLabels = array(
+        0   => "Procesor",
+        1   => "Date",
+        2   => "Imagine Docker",
+        3   => "Timp de inceput",
+        4   => "Timp de sfarsit",
+        5   => "Framework ML",
+        6   => "Compilator ML",
+        7   => "Versiune ML",
+        8   => "Model",
+        9   => "Nume Scenariu",
+        10  => "Nume Flow",
+        11  => "ID Rulare",
+        12  => "Nod Rulare",
+        13  => "ID Commit",
+        14  => "Locatie Loguri",
+        15  => "ID Proiect",
+        16  => "Configuratie Rulata",
+        17  => "Versiune Harness",
+        18  => "Durata Rulare",
+        19  => "Timp de inceput Flow",
+        20  => "Timp de sfarsit Flow",
+        21  => "Performanta",
+        22  => "Unitate de masura performanta"
+    );
+    $signIn = "Logare";
+    $username = "Utilizator";
+    $password = "Parola";
+    $rememberMe = "Tine minte";
+?>

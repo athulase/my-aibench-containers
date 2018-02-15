@@ -1,0 +1,56 @@
+/* FILTERS */
+#filter-panel {
+
+}
+
+#filter-panel-title {
+
+}
+
+#filter-panel-content {
+    padding-top: 10px;
+}
+
+#filter-panel-buttons {
+    padding: 10px;
+}
+
+.filteringDiv {
+    float: left;
+}
+
+.filteringLabel {
+    width: 120px;
+}
+
+.filteringSelect {
+    width: 265px;
+}
+
+#to , #from{
+    width: 100px;
+}
+
+/* TABLE */
+.detailsDiv {
+    float: left;
+}
+
+.detailsLabel {
+    width: 200px;
+}
+
+.detailsData {
+
+}
+
+#table-row-details {
+    margin-bottom: 10px;
+}
+
+/* CHARTS */
+.chart {
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+<?php
+    $appName = "AIBench Reporting Dashboard";
+    $homeLink = "Home";
+    $settingsLink = "Settings";
+    $logout = "Logout";
+    $filters = "Filters";
+    $from = "From";
+    $to = "to";
+    $reset = "Reset";
+    $apply = "Apply";
+    $tableView = "Table View";
+    $chartView = "Chart View";
+    $exportCsv = "Export CSV";
+    $details = "Details";
+    $columnLabels = array(
+        0   => "CPU",
+        1   => "Dataset",
+        2   => "Docker Image",
+        3   => "Start Time",
+        4   => "End Time",
+        5   => "ML Framework",
+        6   => "ML Compiler",
+        7   => "ML Version",
+        8   => "Model",
+        9   => "Scenario Name",
+        10  => "Flow Name",
+        11  => "Run ID",
+        12  => "Running Node",
+        13  => "Commit ID",
+        14  => "Logs Location",
+        15  => "Project ID",
+        16  => "Running Configuration",
+        17  => "Harness Version",
+        18  => "Duration",
+        19  => "Flow Start Time",
+        20  => "Flow End Time",
+        21  => "Throughput Value",
+        22  => "Throughput Meaning"
+    );
+    $signIn = "Sign In";
+    $username = "Username";
+    $password = "Password";
+    $rememberMe = "Remember me";
+?>
