@@ -1,4 +1,4 @@
-FROM 10.105.15.44:5000/tensorflow-gcc:15022018154325
+FROM 10.105.15.44:5000/tensorflow-gcc:15022018154805
 
 RUN git clone https://github.com/tensorflow/models.git; \
    cd models; \
